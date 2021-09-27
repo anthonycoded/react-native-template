@@ -33,13 +33,8 @@ const SearchScreen = () => {
 
   return (
     <View style={styles.container}>
-      <SearchBar
-        query={query}
-        onTermChange={setQuery}
-        onSubmit={() => submit(query)}
-      ></SearchBar>
-      {errorMsg ? <Text>{errorMsg}</Text> : null}
-      <Text>{results.length}</Text>
+    
+      <Text>This is a React-Native template. This is used to speed up dev time.</Text>
     </View>
   );
 };
