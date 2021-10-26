@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text } from "react-native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import ProfileScreen from "../screens/Profile/ProfileScreen";
+import HomeScreen from "../screens/HomeScreen";
 
 const Stack = createNativeStackNavigator();
 const ProfileSettingsNavigator = () => {
@@ -11,10 +11,7 @@ const ProfileSettingsNavigator = () => {
         headerShown: false,
       }}
     >
-      <Stack.Screen
-        name="ProfileScreen"
-        component={ProfileScreen}
-      ></Stack.Screen>
+      <Stack.Screen name="ProfileScreen" component={HomeScreen}></Stack.Screen>
     </Stack.Navigator>
   );
 };

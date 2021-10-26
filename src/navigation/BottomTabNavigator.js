@@ -10,7 +10,6 @@ import { theme } from "../config/Theme";
 
 import HomeNavigator from "./MainNavigator";
 import ProfileSettingsNavigator from "./ProfileSettingsNavigator";
-import ExploreScreen from "../screens/ExploreScreen";
 
 const Tab = createBottomTabNavigator();
 
@@ -59,7 +58,7 @@ const BottomTabNavigator = () => {
       />
       <Tab.Screen
         name="Explore"
-        component={ExploreScreen}
+        component={HomeNavigator}
         options={{
           headerShown: false,
           tabBarLabel: ({ focused, color }) => (
