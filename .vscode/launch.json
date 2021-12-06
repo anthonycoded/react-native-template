@@ -4,8 +4,8 @@
       "name": "Attach to packager",
       "request": "attach",
       "type": "reactnative",
-      "cwd": "${workspaceFolder}",
-
+      "cwd": "C:/Users/sbarbel/Desktop/projects/react-native-template",
+      "address": "192.168.2.144",
       "port": 19000
     }
   ]
